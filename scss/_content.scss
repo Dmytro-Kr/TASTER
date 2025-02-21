@@ -1,0 +1,106 @@
+.main {
+	display: flex;
+	max-width: 1200px;
+	width: 100%;
+	.main-partners {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		flex-direction: column;
+		
+		
+
+		.partners-btn {
+			display: flex;
+			flex-grow: 1;
+			flex-direction: column;
+			align-items:center;
+			background-color: #FB3B2D;
+			span {
+				font-family: "Arial", sans-serif;
+				font-weight: 400;
+				font-size: 35px;
+				line-height: 53px;
+				max-width: 1059px;
+				color: #FAEDD4;
+				text-align: center;
+				margin-top: 28px;
+			}
+		}
+		.parners-button {
+			display: flex;
+			gap: 6px;
+			margin: 84px 0 44px 0;
+			a {
+				font-family: "Arial", sans-serif;
+				font-weight: 400;
+				font-size: 20px;
+				text-transform: uppercase;
+				text-align: center;
+				width: 251px;
+				background-color: #FAEDD4;
+				color: #FB3B2D;
+				padding: 3px 0 3px 0;
+			}
+		}
+		.partners-title {
+			display: flex;
+			justify-content: space-between;
+		
+			.partners-title__disc {
+				display: flex;
+				flex-direction: column;
+				flex-grow: 1;
+				border: 2px solid #FB3B2D;
+				border-bottom: none;
+				justify-content: end;
+			.partners-title__main {
+				.partners-title-title {
+					padding: 0 0 36px 52px;
+					h1 {
+						font-family: "Arial", sans-serif;
+					font-weight: 400;
+					font-size: 65px;
+					line-height: 65px;
+					color: #FB3B2D;
+					max-width: 569px;
+					
+					}
+				}
+				.partners-title-subtitle {
+					border-top: 2px solid #FB3B2D;
+					padding: 27px 0 23px 50px;
+					p {
+						font-family: "Arial", sans-serif;
+						font-weight: 400;
+						font-size: 22px;
+						line-height: 33px;
+						color: #FB3B2D;
+						max-width: 594px;	
+					}	
+				}
+			}
+				
+				
+				.partners-content {
+					background-color: #FB3B2D;
+					h2 {
+						font-family: "Arial", sans-serif;
+					font-weight: 400;
+					font-size: 37px;
+					line-height: 63px;
+					color: #FAEDD4;
+					text-align: center;
+					padding: 25px 0 25px 0;
+					}
+				}
+
+			}
+			.partners-img {
+				background-image: url(../img/chicken1.png);
+				width: 479px;
+				height: 582px;
+			}
+		}
+	}
+}
