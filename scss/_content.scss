@@ -2,6 +2,9 @@
 	display: flex;
 	max-width: 1200px;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	border-right: 2px solid #FB3B2D;
 	.main-partners {
 		display: flex;
 		justify-content: center;
@@ -27,7 +30,7 @@
 				margin-top: 28px;
 			}
 		}
-		.parners-button {
+		.partners-button {
 			display: flex;
 			gap: 6px;
 			margin: 84px 0 44px 0;
@@ -51,8 +54,7 @@
 				display: flex;
 				flex-direction: column;
 				flex-grow: 1;
-				border: 2px solid #FB3B2D;
-				border-bottom: none;
+				border-right: 2px solid #FB3B2D;
 				justify-content: end;
 			.partners-title__main {
 				.partners-title-title {
@@ -102,5 +104,74 @@
 				height: 582px;
 			}
 		}
+	}
+	.background-chicken {
+		.background-title {
+			h2 {
+				font-family: "Arial", sans-serif;
+				font-weight: 400;
+				font-size: 55px;
+				line-height: 55px;
+				color: #FB3B2D;
+				padding-inline: 50px 0;
+				padding-block: 19px 35px;
+			}
+		}
+	}
+	.icon {
+		display: flex;
+		align-items:center;
+		flex-direction: column;
+		border-top: 2px solid#FB3B2D;
+		.icon-grid{
+			display: grid;
+			grid-template: repeat(2, 363px) / repeat(3, 315px);
+			column-gap: 30px;
+			
+			div {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items:center;
+				gap: 30px;
+				
+				span {
+					display: inline-block;
+					max-width: 197px;
+					text-align: center;
+					font-family: "Arial", sans-serif;
+				font-weight: 400;
+				font-size: 30px;
+				line-height: 35px;
+				color: #FB3B2D;
+				}
+				.wid {
+					max-width: 94px;
+				}
+				.wid-2 {
+					max-width: 170px;
+				}
+				.wid-3{
+					max-width: 184px;
+				}
+			}
+		}
+		.icon-title {
+			background-color: #FB3B2D;
+			display: flex;
+			gap: 89px;
+			width: 100%;
+			justify-content: center;
+			span {
+				font-family: "Arial", sans-serif;
+				font-weight: 400;
+				font-size: 40px;
+				// line-height: 80px;
+				color: #FAEDD4;
+				padding: 40px 0 40px 0;
+				display: inline-block;
+			}
+		}
+
 	}
 }

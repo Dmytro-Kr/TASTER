@@ -8,21 +8,20 @@
 	background-color: #FAEDD4;
 	position: relative;
 	.right-menu {
+	
 		position: absolute;
-		right: 0px;
 		display: flex;
-		flex-direction: column;
+		right: 0;
 		text-align: center;
-		width: 800px;
-		right: -280px;
-		top: 278px;
-		transform: rotate(90deg);
+	
 
 		.right-menu__block {
 			font-family: "Arial", sans-serif;
 			font-weight: 400;
 			font-size: 27px;
-			padding: 25px 0 25px 0;
+			padding: 1.5313rem 1.5313rem ;
+			height: 800px;
+			writing-mode:vertical-rl
 			
 		
 			
