@@ -1,6 +1,10 @@
-@import "fonts";
-@import "reset";
-@import "content";
-@import "header";
-@import "footer";
-@import "wrapper";
+@use "fonts";
+@use "reset";
+@use "content";
+@use "header";
+@use "footer";
+@use "wrapper";
+
+body {
+	background-color: #FAEDD4;
+}

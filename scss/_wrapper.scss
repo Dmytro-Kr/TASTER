@@ -7,13 +7,15 @@
 	align-items: start;
 	background-color: #FAEDD4;
 	position: relative;
+
 	.right-menu {
 	
 		position: absolute;
 		display: flex;
 		right: 0;
 		text-align: center;
-	
+		margin-right: 0;
+	}
 
 		.right-menu__block {
 			font-family: "Arial", sans-serif;
@@ -44,5 +46,4 @@
 	
 	
 	
-}
 }

@@ -289,6 +289,79 @@ legend {
   color: #FB3B2D;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial";
+  color: #FB3B2D;
+  font-weight: 400;
+  font-size: 22px;
+  max-width: 1200px;
+  width: 100%;
+  padding-block-start: 50px;
+  padding-block-end: 50px;
+}
+.footer .footer-content {
+  display: flex;
+  max-width: 1050px;
+  width: 100%;
+  justify-content: space-between;
+}
+.footer .footer-content .footer-main {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+.footer .footer-content .footer-main ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer-content .footer-addres {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+.footer .footer-content .footer-addres div {
+  display: flex;
+  flex-direction: column;
+  max-width: 206px;
+  gap: 10px;
+}
+.footer .footer-content .footer-addres div a {
+  color: #FB3B2D;
+}
+.footer .footer-content .footer-addres div p {
+  line-height: 33px;
+}
+.footer .footer-content .footer-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+.footer .footer-content .footer-contacts ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer-content .footer-contacts ul li a {
+  color: #FB3B2D;
+}
+.footer .footer-content .footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+.footer .footer-content .footer-social div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer-content .footer-social div a {
+  color: #FB3B2D;
+}
+
 .wrapper {
   display: flex;
   margin: 0 auto;
@@ -304,8 +377,9 @@ legend {
   display: flex;
   right: 0;
   text-align: center;
+  margin-right: 0;
 }
-.wrapper .right-menu .right-menu__block {
+.wrapper .right-menu__block {
   font-family: "Arial", sans-serif;
   font-weight: 400;
   font-size: 27px;
@@ -313,12 +387,16 @@ legend {
   height: 800px;
   writing-mode: vertical-rl;
 }
-.wrapper .right-menu .right-menu__block:nth-child(1) {
+.wrapper .right-menu__block:nth-child(1) {
   background-color: #FC564A;
 }
-.wrapper .right-menu .right-menu__block:nth-child(2) {
+.wrapper .right-menu__block:nth-child(2) {
   background-color: #FFAF00;
 }
-.wrapper .right-menu .right-menu__block:nth-child(3) {
+.wrapper .right-menu__block:nth-child(3) {
   background-color: #8899CC;
+}
+
+body {
+  background-color: #FAEDD4;
 }/*# sourceMappingURL=main.css.map */
